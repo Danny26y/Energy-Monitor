@@ -1,0 +1,23 @@
+# Local Proteus state and automatic backups
+*.workspace
+*.pdsbak
+Project Backups/
+backups/
+originals/
+
+# Generated and historical experiments stay on this computer
+normal-build/
+test-empty/
+test-low/
+release/
+build/*
+!build/EnergyMonitor.ino.hex
+
+# Editor, OS and private configuration
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+*.log
+.env
+.env.*
